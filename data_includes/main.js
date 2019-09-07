@@ -230,17 +230,18 @@ newSelector()
 )
 .log( "ID" , getVar("ID") )
 ;
+
 PennController("introductionanimals" ,
 	    defaultText
 	        .print()
 	    ,
-	    newText ("<p> Now let's get acquainted with the animals in the show. We have got a group of three dogs. </p>")
+	    newText ("<p> Now let's get acquainted with the animals in the show. We have got a group of three cows. </p>")
 	    ,
 	                  
-	     newImage ("threedogs", "threedogs.png")
+	     newImage ("threecows", "threecows.png")
                .print ()
 	       ,
-	       newAudio("barking", "barking.mp3")
+	        newAudio("cowsounds2sec", "cowsounds2sec.mp3")
 		.play()
 	       ,
 	       newKey(" ")
@@ -253,13 +254,13 @@ PennController("introductionanimals" ,
 	        .print()
 	    ,
 	   
-	       newText ("<p> A group of three frogs. </p>")
+	       newText ("<p> A group of three cats. </p>")
 	    ,
 	                  
-	     newImage ("threefrogs", "threefrogs.png")
+	     newImage ("threecats", "threecats.png")
                .print ()
 	       ,
-	       newAudio("frogsounds2sec", "frogsounds2sec.mp3")
+	       newAudio("catsounds", "catsounds.mp3")
 		.play()
 	       ,
 	       newKey(" ")
@@ -269,13 +270,13 @@ PennController("introductionanimals" ,
 PennController("introductionanimals" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> A group of three cats. </p>")
-	    ,
-	                  
-	     newImage ("threecats","threecats.png")
+	       newText ("<p> A group of three frogs. </p>")
+	       ,
+	              
+	     newImage ("threefrogs","threefrogs.png")
                .print ()
 	       ,
-	       newAudio("catsounds", "catsounds.mp3")
+	       newAudio("frogsounds2sec", "frogsounds2sec.mp3")
 		.play()
 	       ,
 	       newKey(" ")
@@ -286,13 +287,13 @@ PennController("introductionanimals" ,
 PennController("introductionanimals" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> and a group of three cows. </p>")
+	       newText ("<p> and a group of three dogs. </p>")
 	    ,
 	                  
-	     newImage ("threecows", "threecows.png")
+	     newImage ("threedogs", "threedogs.png")
                .print ()
 	       ,
-	       newAudio("cowsounds2sec", "cowsounds2sec.mp3")
+	        newAudio("barking", "barking.mp3")
 		.play()
 	       ,
 	       newKey(" ")
