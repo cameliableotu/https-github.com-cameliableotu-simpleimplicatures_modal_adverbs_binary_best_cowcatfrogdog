@@ -907,7 +907,7 @@ PennController("experiment" ,
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newText ("<p> Let's take a look at the shadow, and see what the baby dragon says.</p>")
+		newText ("<p> Now let's see what the baby dragon has to say about the shadow.</p>")
 		,
 		newImage ("catshadowallcats","catshadowallcats.png")
                .print ()
@@ -1871,7 +1871,7 @@ PennController("experiment" ,
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newText ("<p> Now let's see what the baby dragon has to say about the shadow and reward him. </p>")
+		newText ("<p> Now let's see what the baby dragon has to say about the shadow. </p>")
 		,
 		newImage ("frogshadowtwofrogsonstage", "frogshadowtwofrogsonstage.png")
                .print ()
