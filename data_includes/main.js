@@ -700,7 +700,7 @@ PennController("experiment" ,
 	          ,    
 	       newText ("<p> So the shadow is not the yellow cow! And it is not the orange cow! </p>")	
     ,
-      newImage ("cowshadowonecowonstage", "cowshadowonecowonstage.png")
+      newImage ("cowshadowtwocowsonstage", "cowshadowtwocowsonstage.png")
          .print()
 	       ,
 	       	newAudio("cowsounds2sec", "cowsounds2sec.mp3")
